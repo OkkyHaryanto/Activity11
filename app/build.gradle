@@ -30,6 +30,7 @@ android {
 
 dependencies {
 
+    apply plugin: 'com.google.gms.google-services'
     implementation fileTree(includes: ['*jar'], dir: 'libs')
     implementation 'com.google.firebase:firebase-core:19.0.0'
     implementation 'com.google.firebase:firebase-database:20.0.0'
